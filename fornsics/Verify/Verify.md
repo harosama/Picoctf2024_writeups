@@ -1,7 +1,7 @@
-<h4>Verify</h4>
+<h1>Verify</h1>
 
 <h3>Info about the challenge:</h3>
-![](challenge_img/verifycha.png)
+![Alt text](challenge_img/verifycha.png)
 
 
 
