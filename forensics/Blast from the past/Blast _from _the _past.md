@@ -25,7 +25,7 @@ because he want to change the timezone of the picture that it was in 2023:11:20 
 
 <h4>5/open the modified  file in any hexeditor tool (i use hexed.it)</h4>
 <h4>6/search about this date 1970 </h4>
-i don't find it in the the first time but i find this 
+i don't find it in the first time but i find this 
 
 ![Alt text](challenge_img/6.png)
  
@@ -50,14 +50,16 @@ i type the previous number
 <h4>11/run those commands</h4>
 
 nc -w 2 mimas.picoctf.net <port> < original_modified.jpg
-nc -d mimas.picoctf.net 57737
+
+nc -d mimas.picoctf.net <port>
 
 Oops !! i think should we change this also 
 
 ![Alt text](challenge_img/10.png)
 
 <h4>12/run this command </h4>
-exiftool "-SubSecCreateDate=1970:01:01 00:00:00.001" "-SubSecDateTimeOriginal=1970:01:01 00:00:00.001" original.jpg
+exiftool "-SubSecCreateDate=1970:01:01 00:00:00.001" "-SubSecDateTimeOriginal=1970:01:01 00:00:00.001" "-SubSecModifyDate=1970:01:01 00:00:00.001" original.jpg
+
 
 <h4>execute again the commands of netcat  </h4>
 

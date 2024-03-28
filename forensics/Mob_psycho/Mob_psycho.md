@@ -10,6 +10,7 @@
 
 <h4>2/following the hint and do this command</h4>
   unzip mobpsycho.apk 
+  
 
 ![Alt text](challenge_img/2.png)
 
